@@ -2,6 +2,11 @@
     "name": "posthog-url-telegram-webapp-cleaner-plugin",
     "url": "https://github.com/deadsandro/posthog-url-telegram-webapp-cleaner-plugin",
     "description": " PostHog plugin to clean Telegram MiniApp auth data from URL",
-    "main": "index.js",
-    "posthogVersion": ">= 1.25.0"
+    "main": "index.ts",
+    "posthogVersion": ">= 1.25.0",
+    "config": [
+        {
+            "markdown": "clean Telegram MiniApp auth data from URL"
+        }
+    ]
 }
